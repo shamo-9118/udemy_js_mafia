@@ -65,7 +65,7 @@
     // console.log(plusResult);
 }
 {
-    function culcFuctory(value) {
+    const culc = function(value) {
         function plus(number) {
             const newValue = value + number;
             value = newValue;
@@ -92,8 +92,7 @@
             multiply,
             divide,
         };
-    }
-    const culc = culcFuctory(10);
+    }(10)
     const plusResult = culc.plus(5);
     const minusResult = culc.minus(3);
     const multiplyResult = culc.multiply(2);
