@@ -65,7 +65,7 @@
     // console.log(plusResult);
 }
 {
-    const culc = function(value) {
+    function culcFuctory(value) {
         function plus(number) {
             const newValue = value + number;
             value = newValue;
@@ -92,13 +92,16 @@
             multiply,
             divide,
         };
-    }(10)
+    }
+    const culc = culcFuctory(10);
     const plusResult = culc.plus(5);
     const minusResult = culc.minus(3);
     const multiplyResult = culc.multiply(2);
     const divideResult = culc.divide(3);
-    console.log(plusResult);
-    console.log(minusResult);
-    console.log(multiplyResult);
-    console.log(divideResult);
+    // const props = [];
+    // if (props.length) {
+    //     console.log("hello");
+    // } else {
+    //     console.log("good");
+    // }
 }

@@ -110,8 +110,11 @@ type CalcFactory = {
     const minusResult = culc.minus(3);
     const multiplyResult = culc.multiply(2);
     const divideResult = culc.divide(3);
-    console.log(plusResult);
-    console.log(minusResult);
-    console.log(multiplyResult);
-    console.log(divideResult);
+
+    // const props = [];
+    // if (props.length) {
+    //     console.log("hello");
+    // } else {
+    //     console.log("good");
+    // }
 }
