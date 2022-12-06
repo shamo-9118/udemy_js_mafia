@@ -118,3 +118,15 @@ type CalcFactory = {
     //     console.log("good");
     // }
 }
+{
+    type Countries = ["Japan", "America", "England", "Korea"];
+    type Country = Countries["length"] 
+    const hello:Country= 4
+    // interface Countries {
+    //     length:4,
+    //     0:"Japan",
+    //     1:"America", 
+    //     2:"England", 
+    //     3:"Korea"
+    // }
+}

@@ -105,3 +105,7 @@
     //     console.log("good");
     // }
 }
+{
+    const country = ["Japan", "America", "England", "Korea"];
+    console.log(country[number]);
+}
