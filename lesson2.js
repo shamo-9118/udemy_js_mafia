@@ -29,8 +29,6 @@
 }
 {
     function fn(...args) {
-        console.log(arguments);
-        console.log(args);
     }
     fn(1, 2);
 }

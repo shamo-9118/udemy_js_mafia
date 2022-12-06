@@ -106,6 +106,12 @@
     // }
 }
 {
-    const country = ["Japan", "America", "England", "Korea"];
-    console.log(country[number]);
+    const hello = 4;
+    // interface Countries {
+    //     length:4,
+    //     0:"Japan",
+    //     1:"America", 
+    //     2:"England", 
+    //     3:"Korea"
+    // }
 }
