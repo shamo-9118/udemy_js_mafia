@@ -20,3 +20,21 @@
 
     callGreeting(name);
 }
+{
+    type Numbers = {
+        [key: number]: number;
+    };
+    const numbers = {
+        propA: 10,
+        propB: 20,
+        propC: 30,
+    };
+}
+{
+    function fn(...args: number[]) {
+        console.log(arguments);
+        console.log(args);
+    }
+    fn(1, 2);
+}
+
