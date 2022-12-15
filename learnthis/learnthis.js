@@ -41,3 +41,14 @@
         };
     })(name);
 }
+
+//プリミティブ型の参照
+let num = 1;
+num = 2;
+console.log(num); //2
+
+//オブジェクト型の参照
+let obj = {
+    a: "hello",
+};
+obj.a = "world";
