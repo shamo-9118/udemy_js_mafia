@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="result_text">
+            <p style="color: red">設定されていません！</p>
+        </div>
+        <div id="result_html">
+            <p style="color: red">設定されていません！</p>
+        </div>
+        <form action="">
+            <label for="name"></label>
+            <input id="name" name="name" type="text" size="30" />
+            <input id="btn" type="button" value="送信" />
+        </form>
+        <div id="result"></div>
+        <form action="">
+            <div>
+                <label for="">
+                    <input name="food" type="radio" value="ラーメン" />
+                    ラーメン
+                </label>
+                <label for="">
+                    <input name="food" type="radio" value="焼肉" />
+                    焼肉
+                </label>
+                <label for="">
+                    <input name="food" type="radio" value="すし" />
+                    寿司
+                </label>
+                <input id="food_btn" type="button" value="送信" />
+            </div>
+            <select name="foods" id="foods">
+                <option value="餃子">餃子</option>
+                <option value="ラーメン">ラーメン</option>
+                <option value="チャーハン">チャーハン</option>
+                <option value="唐揚げ">唐揚げ</option>
+            </select>
+        </form>
+        <script src="./class/prototype.js"></script>
+        <script src="./DOM/dom.js"></script>
+        <script src="./DOM/select.js"></script>
+    </body>
+</html>
