@@ -73,6 +73,9 @@ javascriptにはいろいろなスレッドがある、javascriptはシングル
 - Service Worker
 - Web Worker
 - Main Thread => 基本的なスレッドこのMain ThreadではJavascriptの処理とレンダリングを同時に行っている。
-- 同期処理はMain Threa上で
+- 同期処理はMain Three上で
 一つずつ処理が行われいる
 - キューは実行まちの処理たちのこと
+## web worker 
+- javascriptは基本的にシングルスレッドで処理をしている。ただシングルスレッドだと重い処理をするときに、ページのロードとうが遅くなってしまうという現象が起きる。これは解決するためにシングルスレッドであるjavascriptをマルチスレッドかのように振る舞わせることができるのがweb workerです
+- ワーカーとはweb workerを起動して行われるバックグラウンドの処理のことをさす。
