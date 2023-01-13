@@ -1,6 +1,6 @@
 "use strict";
 document.getElementById("btn").addEventListener("click", () => {
-    const worker = new Worker("./worker.js");
+    const worker = new Worker("../worker/worker.js");
     worker.postMessage({
         target: document.getElementById("target").value,
         x: document.getElementById("x").value,
@@ -10,7 +10,7 @@ document.getElementById("btn").addEventListener("click", () => {
         document.getElementById("result").textContent = e.data;
     });
 
-    worker.addEventListener("error", () => {
+    worker.addEventListener("error", (e) => {
         document.getElementById("result").textContent = e.message;
     });
 });
